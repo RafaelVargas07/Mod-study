@@ -48,7 +48,7 @@ public final class CanvasService {
 		}
 
 		System.arraycopy(colors, 0, data.colors, 0, MapColors.PIXELS);
-		data.setColorsDirty(0, 0); // marca el mapa como modificado para guardarlo en disco
+		data.setDirty(); // marca el mapa como modificado para guardarlo en disco
 
 		String name = payload.name().strip();
 		if (!name.isEmpty()) {
