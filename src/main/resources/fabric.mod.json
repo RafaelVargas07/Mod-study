@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "cuadrospizarras",
+	"version": "${version}",
+	"name": "Cuadros y Pizarras",
+	"description": "Guarda tus capturas de pantalla como cuadros y dibuja con el ratón en una pizarra. El resultado es un mapa que puedes colgar en un marco.",
+	"authors": [
+		"Cuadros y Pizarras"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/cuadrospizarras/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.cuadrospizarras.CuadrosPizarras"
+		],
+		"client": [
+			"com.cuadrospizarras.client.CuadrosPizarrasClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

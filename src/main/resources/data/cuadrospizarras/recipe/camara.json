@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "g": "minecraft:glass_pane",
+    "r": "minecraft:redstone"
+  },
+  "pattern": [
+    "iii",
+    "igi",
+    "iri"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cuadrospizarras:camara"
+  }
+}
